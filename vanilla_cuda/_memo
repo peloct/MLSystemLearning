@@ -1,0 +1,7 @@
+nvcc -arch=sm_75 -o hello-gpu hello.cu -run
+
+
+Quickstart Guide to CUDA
+
+https://blog.42yeah.is/cuda/2023/06/03/cuda.html
+
