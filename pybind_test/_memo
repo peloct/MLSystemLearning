@@ -1,4 +1,8 @@
 Pybind 메뉴얼
 https://pybind11.readthedocs.io/en/latest/basics.html
 
+CMake 관련
+https://gist.github.com/dongbum/d1d49e38a20f9cf52ea39f9ce2702160
+
+
 https://github.com/graphdeco-inria/diff-gaussian-rasterization/tree/59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d
