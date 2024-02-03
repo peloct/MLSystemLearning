@@ -11,5 +11,8 @@ int add(int i, int j){
 
 PYBIND11_MODULE(cmake_test, m){
     m.doc() = "pybind11 example plugin";
-    m.def("add", &add, "A function that adds two numbers");
+    m.def("add", &add, "A function that adds two numbers",
+        py::arg("i")=1, py::arg("j")=2);
+    m.attr("int_var") = 40;
+    m.attr("str_var") = py::cast("hello");
 }
